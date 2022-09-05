@@ -8,9 +8,24 @@ const PortfolioContextProvider = ({ children }) => {
     return darkMode ? 'dark' : 'light';
   }
   const [theme, setTheme] = useState(isDarkMode());
+  const [contactName, setContactName] = useState();
+  const [contactEmail, setContactEmail] = useState();
+  const [contactPhoneNumber, setContactPhoneNumber] = useState();
+  const [contactMessage, setContactMessage] = useState();
 
-  const handleThemeChange = () => {
-     setTheme(theme === 'light' ? 'dark' : 'light')
+  const handleThemeChange = () => setTheme(theme === 'light' ? 'dark' : 'light')
+
+  const handeContactNameChange = (e) => setContactName(e.target.value);
+
+  const handeContactEmailChange = (e) => setContactEmail(e.target.value);
+
+  const handeContactPhoneNumberChange = (e) => setContactPhoneNumber(e.target.value);
+
+  const handeContactMessageChange = (e) => setContactMessage(e.target.value);
+
+  const handleDownloadResume = (e) => {
+    e.preventDefault();
+    window.open("./Resume.pdf","_blank");
   }
 
   useEffect(() => {
@@ -24,7 +39,20 @@ const PortfolioContextProvider = ({ children }) => {
   const value = {
     theme, 
     setTheme,
-    handleThemeChange
+    contactName,
+    setContactName,
+    contactEmail,
+    setContactEmail,
+    contactPhoneNumber,
+    setContactPhoneNumber,
+    contactMessage,
+    setContactMessage,
+    handleThemeChange,
+    handleDownloadResume,
+    handeContactNameChange,
+    handeContactEmailChange,
+    handeContactPhoneNumberChange,
+    handeContactMessageChange
   }
   return (
     <PortfolioContext.Provider value={value} >
