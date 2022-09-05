@@ -3,7 +3,11 @@ import React, { createContext, useState, useEffect } from 'react';
 const PortfolioContext = createContext();
 
 const PortfolioContextProvider = ({ children }) => {
-  const [theme, setTheme] = useState('light');
+  const isDarkMode = () => {
+    let darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    return darkMode ? 'dark' : 'light';
+  }
+  const [theme, setTheme] = useState(isDarkMode());
 
   const handleThemeChange = () => {
      setTheme(theme === 'light' ? 'dark' : 'light')
