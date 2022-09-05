@@ -1,0 +1,11 @@
+.dark {
+  background-color: #212529;
+  color: #FFFFFF;
+}
+
+.darkButton {
+  background:  none;
+  color: #FFFFFF;
+  border: none;
+  font-size: 25px;
+}

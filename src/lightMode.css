@@ -1,0 +1,11 @@
+.light {
+  background-color: #F8F9FA;
+  color: #000000E6;
+}
+
+.lightButton {
+  background: none;
+  color: #000000E6;
+  border: none;
+  font-size: 25px;
+}
