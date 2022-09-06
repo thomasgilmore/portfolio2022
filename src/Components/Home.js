@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
 import { PortfolioContext } from '../Context/Context';
 import './home.css';
+import NavBar from './NavBar';
 import GitHubMark from '../Assets/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png';
 import GitHubMarkLight from '../Assets/GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png';
 import LinkedinLogo from '../Assets/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png';
@@ -13,6 +14,7 @@ export default function Home() {
   const { theme, handleDownloadResume } = useContext(PortfolioContext);
   return (
     <Container>
+      <NavBar />
       <div className='portfolioHero'>
         <h1>Hi there, I'm Thomas.</h1>
         <h1>Front End Developer.</h1>
