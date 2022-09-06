@@ -1,0 +1,6 @@
+.projectNavDiv {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  padding: 30px 0;
+}
