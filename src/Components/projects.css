@@ -1,0 +1,4 @@
+.projectsDiv {
+  display: flex;
+  flex-direction: column;
+}
