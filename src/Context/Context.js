@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect } from 'react';
 import WineRecommendationImage from '../Assets/Projects/wine-recommendations-square-version-2.jpg';
+import MoodyCreatureSociety from '../Assets/Projects/moody-creature-society.png';
 
 const PortfolioContext = createContext();
 
@@ -20,6 +21,12 @@ const PortfolioContextProvider = ({ children }) => {
       title: 'Wine Recommendations',
       url: 'https://gilmore-wine-recommendations-v2.netlify.app/',
       link: '/wine-recommendations'
+    }, 
+    {
+      img: MoodyCreatureSociety,
+      title: 'Moody Creature Society',
+      url: 'https://moody-creature-society.netlify.app/',
+      link: '/moody-creature-society'
     }
   ]
 
