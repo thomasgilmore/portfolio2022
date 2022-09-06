@@ -1,4 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react';
+import WineRecommendationImage from '../Assets/Projects/wine-recommendations-square-version-2.jpg';
 
 const PortfolioContext = createContext();
 
@@ -12,6 +13,15 @@ const PortfolioContextProvider = ({ children }) => {
   const [contactEmail, setContactEmail] = useState();
   const [contactPhoneNumber, setContactPhoneNumber] = useState();
   const [contactMessage, setContactMessage] = useState();
+
+  const projects = [
+    {
+      img: WineRecommendationImage,
+      title: 'Wine Recommendations',
+      url: 'https://gilmore-wine-recommendations-v2.netlify.app/',
+      link: '/wine-recommendations'
+    }
+  ]
 
   const handleThemeChange = () => setTheme(theme === 'light' ? 'dark' : 'light')
 
@@ -47,6 +57,7 @@ const PortfolioContextProvider = ({ children }) => {
     setContactPhoneNumber,
     contactMessage,
     setContactMessage,
+    projects,
     handleThemeChange,
     handleDownloadResume,
     handeContactNameChange,
