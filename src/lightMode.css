@@ -33,6 +33,10 @@
   width: 300px;
 }
 
+.lightProjectNavBackArrow {
+  color: #000000E6;
+}
+
 @media (prefers-color-scheme: light) {
   .light {
     background-color: #F8F9FA;
@@ -62,5 +66,9 @@
     color: #FFFFFF;
     font-size: 20px;
     width: 300px;
+  }
+
+  .lightProjectNavBackArrow {
+    color: #000000E6;
   }
 }
