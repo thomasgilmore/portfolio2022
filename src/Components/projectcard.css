@@ -1,3 +1,37 @@
+.projectCardLink {
+  text-decoration: none;
+}
+
+.projectCardImgDiv {
+  overflow: hidden;
+  max-width: 450px;
+}
+
+.projectCardImg:hover {
+  -webkit-transform:scale(1.2); /* Safari and Chrome */
+  -moz-transform:scale(1.2); /* Firefox */
+  -ms-transform:scale(1.2); /* IE 9 */
+  -o-transform:scale(1.2); /* Opera */
+  transform:scale(1.2);
+  left: 0px;
+  top: 40px;
+  position: relative;
+}
+
 .projectCardImg {
   max-width: 450px;
+  margin-bottom: 10px;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.projectCardTitle {
+  text-decoration: none;
+}
+
+.projectCardViewProject {
+  text-decoration: none;
 }

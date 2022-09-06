@@ -19,6 +19,11 @@
   width: 100px;
 }
 
+.lightprojectCardTitle,
+.lightprojectCardViewProject {
+  color: #000000E6;
+}
+
 .lightContactSubmitButton {
   background-color: #0d6efd;
   border: none;

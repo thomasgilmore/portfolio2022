@@ -19,6 +19,11 @@
   width: 100px;
 }
 
+.darkprojectCardTitle,
+.darkprojectCardViewProject {
+  color: #FFFFFF;
+}
+
 .darkContactSubmitButton {
   background-color: #f9fafb;
   border: none;
