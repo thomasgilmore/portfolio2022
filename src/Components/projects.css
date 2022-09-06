@@ -5,5 +5,7 @@
 
 .projectsListDiv {
   display: flex;
-  gap: 10px;
+  justify-content: space-evenly;
+  gap: 30px;
+  flex-wrap: wrap;
 }
