@@ -1,6 +1,8 @@
 import React, { createContext, useState, useEffect } from 'react';
 import WineRecommendationImage from '../Assets/Projects/wine-recommendations-square-version-2.jpg';
 import MoodyCreatureSociety from '../Assets/Projects/moody-creature-society.png';
+import PokemonIndex from '../Assets/Projects/pokemon-index.png';
+import DesignoMultiPageWebsite from '../Assets/Projects/designo-multi-page-website.png';
 
 const PortfolioContext = createContext();
 
@@ -27,6 +29,18 @@ const PortfolioContextProvider = ({ children }) => {
       title: 'Moody Creature Society',
       url: 'https://moody-creature-society.netlify.app/',
       link: '/moody-creature-society'
+    },
+    {
+      img: PokemonIndex,
+      title: 'Pokémon Index',
+      url: 'https://gilmore-pokemon-index.netlify.app/',
+      link: '/pokemon-index'
+    },
+    {
+      img: DesignoMultiPageWebsite,
+      title: 'Designo Multi-Page Website',
+      url: 'https://gilmore-designo.netlify.app/',
+      link: '/designo-multi-page-website'
     }
   ]
 
