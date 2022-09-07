@@ -5,7 +5,7 @@ import ProjectNav from './ProjectNav';
 
 export default function DesignoMultiPageWebsite() {
   return(
-    <div>
+    <div className='designoMultiPageWebsiteDiv'>
       <Container>
         <ProjectNav title='Designo Multi-Page Website' />
       </Container>

@@ -5,7 +5,7 @@ import ProjectNav from './ProjectNav';
 
 export default function MoodyCreatureSociety() {
   return(
-    <div>
+    <div className='moodyCreatureSocietyDiv'>
       <Container>
         <ProjectNav title="Moody Creature Society" />
       </Container>
