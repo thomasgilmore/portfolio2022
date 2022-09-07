@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import { PortfolioContext } from '../Context/Context';
 import './home.css';
 import NavBar from './NavBar';
+import { motion } from "framer-motion"
 import GitHubMark from '../Assets/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png';
 import GitHubMarkLight from '../Assets/GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png';
 import LinkedinLogo from '../Assets/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png';
@@ -15,6 +16,7 @@ export default function Home() {
   return (
     <Container>
       <NavBar />
+      <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1 }}>
       <div className='portfolioHero'>
         <h1>Hi there, I'm Thomas.</h1>
         <h1>Front End Developer.</h1>
@@ -23,7 +25,8 @@ export default function Home() {
           <button onClick={handleDownloadResume} className={`${theme}ResumeButton`}>Resume</button>
           <a href="https://www.linkedin.com/in/thomasgilmore95/" target="__blank"><img src={LinkedinLogo} className="linkedinLogo" alt="Linkedin Logo to Linkedin Account" /></a>
         </div>
-      </div>
+        </div>
+      </motion.div>
       <About />
       <Projects />
       <Contact />
