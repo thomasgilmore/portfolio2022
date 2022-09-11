@@ -37,6 +37,14 @@
   color: #FFFFFF;
 }
 
+.darkContactFormInput {
+  border: 2px solid #FFFFFF;
+}
+
+.darkContactFormTextArea {
+  border: 2px solid #FFFFFF;
+}
+
 @media (prefers-color-scheme: dark) {
   .dark {
     background-color: #212529;
