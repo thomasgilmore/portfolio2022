@@ -2,9 +2,26 @@
   margin: 20px 0;
 }
 
+.hiThere {
+  margin-bottom: 0;
+}
+
+.heroCursor {
+  font-size: 2.5rem;
+}
+
+.Typewriter__wrapper {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 .portfolioHeroSocialIcons {
   display: flex;
   gap: 10px;
+  margin: 20px 0;
 }
 
 .gitHubLogo,
