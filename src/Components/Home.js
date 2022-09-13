@@ -7,6 +7,7 @@ import Typewriter from 'typewriter-effect';
 import GitHubMark from '../Assets/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png';
 import GitHubMarkLight from '../Assets/GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png';
 import LinkedinLogo from '../Assets/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png';
+import HeroImage from './HeroImage';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
@@ -17,6 +18,7 @@ export default function Home() {
     <Container>
       <NavBar />
       <div className='portfolioHero'>
+        <div>
         <h1 className='hiThere'>Hi there, I'm Thomas.</h1>
         <Typewriter options={{
           strings: ['Front End Developer.', 'Self Taught Developer.'],
@@ -30,6 +32,8 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/thomasgilmore95/" target="__blank"><img src={LinkedinLogo} className="linkedinLogo" alt="Linkedin Logo to Linkedin Account" /></a>
         </div>
         </div>
+        <HeroImage />
+      </div>
       <About />
       <Projects />
       <Contact />
