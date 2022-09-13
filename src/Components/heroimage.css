@@ -1,0 +1,23 @@
+.heroImage {
+  max-width: 700px;
+}
+
+@media only screen and (max-width: 1399px) {
+  .heroImage {
+    max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .heroImage {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .heroImageDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
