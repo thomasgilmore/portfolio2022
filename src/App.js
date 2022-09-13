@@ -1,6 +1,7 @@
 import './App.css';
 import './darkMode.css';
 import './lightMode.css';
+import './projects.css';
 import React, { useContext } from 'react';
 import { PortfolioContext } from './Context/Context';
 import { Routes, Route } from 'react-router-dom';
