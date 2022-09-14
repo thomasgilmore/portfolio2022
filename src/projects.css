@@ -1,3 +1,9 @@
+.siteLinksDiv {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+
 .projectText {
   font-size: 25px;
 }
