@@ -11,12 +11,15 @@ export default function MoodyCreatureSociety() {
       <Container>
         <ProjectNav title="Moody Creature Society" />
         <div className="siteLinksDiv">
-          <a href="https://moody-creature-society.netlify.app/" target="_blank" className={`${theme}ViewSiteLink`}>View Site</a>
-          <a href="https://github.com/thomasgilmore95/mcs" target="_blank" className={`${theme}ViewCodeLink`}>View Code</a>
+          <a href="https://moody-creature-society.netlify.app/" target="_blank" className={`${theme}ViewSiteLink`} rel="noreferrer">View Site</a>
+          <a href="https://github.com/thomasgilmore95/mcs" target="_blank" className={`${theme}ViewCodeLink`} rel="noreferrer">View Code</a>
         </div>
         <p className="projectText">This project I worked with a team lead, backend developer, and the client. I worked on the Frontend landing page using React for a NFT. It displays price info, date release, some of the pictures of the NFTs for sale, etc.</p> 
 
         <p className="projectText">I was given all of the elements for the website (ex. images and text) and they gave me a sketch to follow that was written on a piece of paper. It was definitely one of the more interesting ways to get a design and possibly made it more difficult. However, I'm always up for a good challenge to work on.</p>
+
+        <h3>What I Learned?</h3>
+        <p className="projectText">Working with new people is always a good challenge that I welcome and like to learn something if I can. Since there are so many ways on how to do something, I really enjoy seeing different ways to do things.</p>
       </Container>
     </div>
   )
