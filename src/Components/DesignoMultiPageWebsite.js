@@ -11,10 +11,12 @@ export default function DesignoMultiPageWebsite() {
       <Container>
         <ProjectNav title='Designo Multi-Page Website' />
         <div className="siteLinksDiv">
-          <a href="https://gilmore-designo.netlify.app/" target="_blank" className={`${theme}ViewSiteLink`}>View Site</a>
-          <a href="https://github.com/thomasgilmore95/designo-multi-page-website" target="_blank" className={`${theme}ViewCodeLink`}>View Code</a>
+          <a href="https://gilmore-designo.netlify.app/" target="_blank" className={`${theme}ViewSiteLink`} rel="noreferrer">View Site</a>
+          <a href="https://github.com/thomasgilmore95/designo-multi-page-website" target="_blank" className={`${theme}ViewCodeLink`} rel="noreferrer">View Code</a>
         </div>
         <p className="projectText">This project I followed a figma design that was given to me to create a multi-page react website. To create the different pages I used React Router to display the different components for each page.</p>
+        <h3>What I Learned?</h3>
+        <p className="projectText">Practing making a multi page website while creating the site with React.</p>
       </Container>
     </div>
   )
