@@ -11,8 +11,8 @@ export default function PokemonIndex() {
       <Container>
         <ProjectNav title="Pokémon Index" />
         <div className="siteLinksDiv">
-          <a href="https://gilmore-pokemon-index.netlify.app/" target="_blank" className={`${theme}ViewSiteLink`}>View Site</a>
-          <a href="https://github.com/thomasgilmore95/Pokemon-Index" target="_blank" className={`${theme}ViewCodeLink`}>View Code</a>
+          <a href="https://gilmore-pokemon-index.netlify.app/" target="_blank" className={`${theme}ViewSiteLink`} rel="noreferrer">View Site</a>
+          <a href="https://github.com/thomasgilmore95/Pokemon-Index" target="_blank" className={`${theme}ViewCodeLink`} rel="noreferrer">View Code</a>
         </div>
         <p className="projectText">Implements user login feature with Google OAuth and utilizes context hook to handle UI states</p>
         <p className="projectText">Integrates REST protocol that works with Pokemoncg.io API endpoints</p>
@@ -21,6 +21,8 @@ export default function PokemonIndex() {
 
         <p className="projectText">Integrate REST protocol that works with Pokemoncg.io API endpoints to fetch the Pokémon cards to display them and you can also search for a particular Pokémon card and the UI will update to only display that Pokémon. I utilized context hook to handle UI states for the application and also created UI components with functional components and hooks. 
         </p>
+        <h3>What I Learned?</h3>
+        <p className='projectText'>I first made this project using JavaScript and then converted the code to TypeScript. I also used useContext to store all my varibales and functions, so I can easily pass down all of the information down to children components.</p>
       </Container>
     </div>
   )
