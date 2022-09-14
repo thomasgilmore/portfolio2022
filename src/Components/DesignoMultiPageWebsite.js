@@ -1,13 +1,19 @@
-import React from 'react';
 import './designomultipagewebsite.css';
+import React, { useContext } from 'react';
+import { PortfolioContext } from '../Context/Context';
 import Container from 'react-bootstrap/Container';
 import ProjectNav from './ProjectNav';
 
 export default function DesignoMultiPageWebsite() {
+  const { theme } = useContext(PortfolioContext);
   return(
     <div className='designoMultiPageWebsiteDiv'>
       <Container>
         <ProjectNav title='Designo Multi-Page Website' />
+        <div className="siteLinksDiv">
+          <a href="https://gilmore-designo.netlify.app/" target="_blank" className={`${theme}ViewSiteLink`}>View Site</a>
+          <a href="https://github.com/thomasgilmore95/designo-multi-page-website" target="_blank" className={`${theme}ViewCodeLink`}>View Code</a>
+        </div>
         <p className="projectText">This project I followed a figma design that was given to me to create a multi-page react website. To create the different pages I used React Router to display the different components for each page.</p>
       </Container>
     </div>
