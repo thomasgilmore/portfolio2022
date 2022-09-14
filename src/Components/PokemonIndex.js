@@ -1,13 +1,19 @@
-import React from 'react';
 import './pokemonidex.css';
+import React, { useContext } from 'react';
+import { PortfolioContext } from '../Context/Context';
 import Container from 'react-bootstrap/Container';
 import ProjectNav from './ProjectNav';
 
 export default function PokemonIndex() {
+  const { theme } = useContext(PortfolioContext);
   return(
     <div className='pokemonIndexDiv'>
       <Container>
         <ProjectNav title="Pokémon Index" />
+        <div className="siteLinksDiv">
+          <a href="https://gilmore-pokemon-index.netlify.app/" target="_blank" className={`${theme}ViewSiteLink`}>View Site</a>
+          <a href="https://github.com/thomasgilmore95/Pokemon-Index" target="_blank" className={`${theme}ViewCodeLink`}>View Code</a>
+        </div>
         <p className="projectText">Implements user login feature with Google OAuth and utilizes context hook to handle UI states</p>
         <p className="projectText">Integrates REST protocol that works with Pokemoncg.io API endpoints</p>
 
