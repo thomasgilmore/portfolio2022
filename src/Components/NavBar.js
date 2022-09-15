@@ -14,10 +14,10 @@ export default function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navItems">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link className={`${theme}NavItems`} href="#home">Home</Nav.Link>
+            <Nav.Link className={`${theme}NavItems`} href="#about">About</Nav.Link>
+            <Nav.Link className={`${theme}NavItems`} href="#projects">Projects</Nav.Link>
+            <Nav.Link className={`${theme}NavItems`} href="#contact">Contact</Nav.Link>
             <button onClick={handleThemeChange} className={`${theme}Button`}>{theme === 'light' ? <BsSun /> : <FiMoon />}</button>
           </Nav>
         </Navbar.Collapse>
