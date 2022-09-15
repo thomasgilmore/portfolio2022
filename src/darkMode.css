@@ -1,3 +1,15 @@
+.darkNavItems {
+  color: #FFFFFF;
+}
+
+.darkNavItems:hover {
+  color: lightblue;
+}
+
+.active.darkNavItems:hover {
+  color: lightblue;
+}
+
 .dark {
   background-color: #212529;
   color: #FFFFFF;
@@ -10,6 +22,10 @@
   font-size: 25px;
 }
 
+.darkButton:hover {
+  color: lightblue;
+}
+
 .darkResumeButton {
   background-color: #f9fafb;
   border: none;
@@ -17,6 +33,10 @@
   color: #000000E6;
   font-size: 20px;
   width: 100px;
+}
+
+.darkResumeButton:hover {
+  background-color: lightblue;
 }
 
 .darkprojectCardTitle,
@@ -33,6 +53,10 @@
   width: 300px;
 }
 
+.darkContactSubmitButton:hover {
+  background-color: lightblue;
+}
+
 .darkProjectNavBackArrow {
   color: #FFFFFF;
 }
@@ -43,6 +67,22 @@
 
 .darkContactFormTextArea {
   border: 2px solid #FFFFFF;
+}
+
+.darkViewSiteLink,
+.darkViewCodeLink {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.darkViewSiteLink:hover {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+.darkViewCodeLink:hover {
+  color: lightblue;
+  text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -70,4 +110,20 @@
   .darkProjectNavBackArrow {
     color: #FFFFFF;
   }
+
+  .darkViewSiteLink,
+.darkViewCodeLink {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.darkViewSiteLink:hover {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+.darkViewCodeLink:hover {
+  color: lightblue;
+  text-decoration: underline;
+}
 }
