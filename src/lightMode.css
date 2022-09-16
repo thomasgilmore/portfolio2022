@@ -76,8 +76,28 @@
   color: blue;
   text-decoration: underline;
 }
+.lightCardMotionDiv {
+  border: 3px solid #000000E6;
+  border-radius: 5px;
+  filter: drop-shadow(10px 10px 4px #000000E6);
+  background-color: #FFFFFF;
+  padding: 10px;
+  height: 410px;
+}
 
 @media (prefers-color-scheme: light) {
+  .lightNavItems {
+    color: #000000E6;
+  }
+
+  .lightNavItems:hover {
+    color: gray;
+  }
+
+  .active.lightNavItems:hover {
+    color: gray;
+  }
+
   .light {
     background-color: #F8F9FA;
     color: #000000E6;
@@ -88,6 +108,10 @@
     color: #000000E6;
     border: none;
     font-size: 25px;
+  }
+
+  .lightButton:hover {
+    color: gray;
   }
 
   .lightResumeButton {
@@ -103,6 +127,11 @@
     background-color: darkblue;
   }
   
+  .lightprojectCardTitle,
+  .lightprojectCardViewProject {
+    color: #000000E6;
+  }
+
   .lightContactSubmitButton {
     background-color: #0d6efd;
     border: none;
@@ -120,6 +149,14 @@
     color: #000000E6;
   }
 
+  .lightContactFormInput {
+    border: 2px solid #000000E6;
+  }
+
+  .lightContactFormTextArea {
+    border: 2px solid #000000E6;
+  }
+
   .lightViewSiteLink,
   .lightViewCodeLink {
     color: #000000E6;
@@ -134,5 +171,14 @@
   .lightViewCodeLink:hover {
     color: blue;
     text-decoration: underline;
+  }
+
+  .lightCardMotionDiv {
+    border: 3px solid #000000E6;
+    border-radius: 5px;
+    filter: drop-shadow(10px 10px 4px #000000E6);
+    background-color: #FFFFFF;
+    padding: 10px;
+    height: 410px;
   }
 }

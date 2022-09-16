@@ -85,17 +85,60 @@
   text-decoration: underline;
 }
 
+.darkCardMotionDiv {
+  border: 3px solid #000000E6;
+  border-radius: 5px;
+  filter: drop-shadow(10px 10px 4px #FFFFFF);
+  background-color: #000000E6;
+  padding: 10px;
+  height: 410px;
+}
+
 @media (prefers-color-scheme: dark) {
+  .darkNavItems {
+    color: #FFFFFF;
+  }
+
+  .darkNavItems:hover {
+    color: lightblue;
+  }
+
+  .active.darkNavItems:hover {
+    color: lightblue;
+  }
+
   .dark {
     background-color: #212529;
     color: #FFFFFF;
   }
-  
+
   .darkButton {
-    background:  none;
+    background: none;
     color: #FFFFFF;
     border: none;
     font-size: 25px;
+  }
+
+  .darkButton:hover {
+    color: lightblue;
+  }
+
+  .darkResumeButton {
+    background-color: #f9fafb;
+    border: none;
+    border-radius: 5px;
+    color: #000000E6;
+    font-size: 20px;
+    width: 100px;
+  }
+
+  .darkResumeButton:hover {
+    background-color: lightblue;
+  }
+
+  .darkprojectCardTitle,
+  .darkprojectCardViewProject {
+    color: #FFFFFF;
   }
 
   .darkContactSubmitButton {
@@ -107,23 +150,44 @@
     width: 300px;
   }
 
+  .darkContactSubmitButton:hover {
+    background-color: lightblue;
+  }
+
   .darkProjectNavBackArrow {
     color: #FFFFFF;
   }
 
+  .darkContactFormInput {
+    border: 2px solid #FFFFFF;
+  }
+
+  .darkContactFormTextArea {
+    border: 2px solid #FFFFFF;
+  }
+
   .darkViewSiteLink,
-.darkViewCodeLink {
-  color: #FFFFFF;
-  text-decoration: none;
-}
+  .darkViewCodeLink {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
 
-.darkViewSiteLink:hover {
-  color: lightblue;
-  text-decoration: underline;
-}
+  .darkViewSiteLink:hover {
+    color: lightblue;
+    text-decoration: underline;
+  }
 
-.darkViewCodeLink:hover {
-  color: lightblue;
-  text-decoration: underline;
-}
+  .darkViewCodeLink:hover {
+    color: lightblue;
+    text-decoration: underline;
+  }
+
+  .darkCardMotionDiv {
+    border: 3px solid #000000E6;
+    border-radius: 5px;
+    filter: drop-shadow(10px 10px 4px #FFFFFF);
+    background-color: #000000E6;
+    padding: 10px;
+    height: 410px;
+  }  
 }
