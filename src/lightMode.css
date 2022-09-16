@@ -3,11 +3,11 @@
 }
 
 .lightNavItems:hover {
-  color: gray;
+  color: #4B626D;
 }
 
 .active.lightNavItems:hover {
-  color: gray;
+  color: #4B626D;
 }
 
 .light {
@@ -23,11 +23,11 @@
 }
 
 .lightButton:hover {
-  color: gray;
+  color: #4B626D;
 }
 
 .lightResumeButton {
-  background-color: #0d6efd;
+  background-color: #607D8B;
   border: none;
   border-radius: 5px;
   color: #FFFFFF;
@@ -41,7 +41,7 @@
 }
 
 .lightContactSubmitButton {
-  background-color: #0d6efd;
+  background-color: red;
   border: none;
   border-radius: 5px;
   color: #FFFFFF;
@@ -91,11 +91,11 @@
   }
 
   .lightNavItems:hover {
-    color: gray;
+    color: #4B626D;
   }
 
   .active.lightNavItems:hover {
-    color: gray;
+    color: #4B626D;
   }
 
   .light {
@@ -111,11 +111,11 @@
   }
 
   .lightButton:hover {
-    color: gray;
+    color: #4B626D;
   }
 
   .lightResumeButton {
-    background-color: #0d6efd;
+    background-color: #607D8B;
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
@@ -124,7 +124,7 @@
   }
 
   .lightResumeButton:hover {
-    background-color: darkblue;
+    background-color: #4B626D;
   }
   
   .lightprojectCardTitle,
@@ -133,7 +133,7 @@
   }
 
   .lightContactSubmitButton {
-    background-color: #0d6efd;
+    background-color: #607D8B;
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
@@ -142,7 +142,7 @@
   }
 
   .lightContactSubmitButton:hover {
-    background-color: darkblue;
+    background-color: #4B626D;
   }
 
   .lightProjectNavBackArrow {

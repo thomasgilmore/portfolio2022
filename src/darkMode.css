@@ -36,7 +36,7 @@
 }
 
 .darkResumeButton:hover {
-  background-color: lightblue;
+  background-color: #CFD8DC;
 }
 
 .darkprojectCardTitle,
@@ -54,7 +54,7 @@
 }
 
 .darkContactSubmitButton:hover {
-  background-color: lightblue;
+  background-color: #CFD8DC;
 }
 
 .darkProjectNavBackArrow {
@@ -133,7 +133,7 @@
   }
 
   .darkResumeButton:hover {
-    background-color: lightblue;
+    background-color: #CFD8DC;
   }
 
   .darkprojectCardTitle,
@@ -151,7 +151,7 @@
   }
 
   .darkContactSubmitButton:hover {
-    background-color: lightblue;
+    background-color: #CFD8DC;
   }
 
   .darkProjectNavBackArrow {
