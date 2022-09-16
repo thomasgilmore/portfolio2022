@@ -5,7 +5,8 @@
 .projectCardImgDiv {
   overflow: hidden;
   max-width: 450px;
-  max-height: 309px;
+  max-height: 300px;
+  margin-bottom: 7px;
 }
 
 .projectCardImg:hover {
