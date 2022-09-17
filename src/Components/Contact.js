@@ -3,9 +3,9 @@ import { PortfolioContext } from '../Context/Context';
 import './contact.css';
 
 export default function Contact() {
-  const { theme, handeContactNameChange, handeContactEmailChange, handeContactPhoneNumberChange, handeContactMessageChange } = useContext(PortfolioContext);
+  const { theme, handeContactNameChange, handeContactEmailChange, handeContactPhoneNumberChange, handeContactMessageChange, handleSubmit } = useContext(PortfolioContext);
   return (
-    <form className='contactForm' id="contact">
+    <form className='contactForm' id="contact" onSubmit={handleSubmit}>
       <h2>Contact</h2>
       <label>Name
         <input type="text" className={`${theme}ContactFormInput`} name="Name" placeholder='Name' onChange={handeContactNameChange} required />

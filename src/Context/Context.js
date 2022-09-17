@@ -59,6 +59,41 @@ const PortfolioContextProvider = ({ children }) => {
     window.open("./Resume.pdf","_blank");
   }
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    e.target[0].value = "";
+    e.target[1].value = "";
+    e.target[2].value = "";
+    e.target[3].value = "";
+    const endpoint = process.env.REACT_APP_AWS_API;
+    const body = JSON.stringify({
+      name: contactName,
+      email: contactEmail,
+      phone: contactPhoneNumber,
+      message: contactMessage
+    });
+    const requestOptions = {
+      method: "POST",
+      body
+    }
+    
+    fetch(endpoint, requestOptions)
+      .then((respone) => {
+        if (!respone.ok) throw new Error("Error in fetch");
+        return respone.json();
+      })
+      .then((response) => {
+        if (response.ok) {
+
+        }
+      })
+      .catch((error) => {
+        if (error) {
+
+        }
+      })
+ }
+
   useEffect(() => {
     window.matchMedia('(prefers-color-scheme: dark)')
       .addEventListener('change', event => {
@@ -84,7 +119,8 @@ const PortfolioContextProvider = ({ children }) => {
     handeContactNameChange,
     handeContactEmailChange,
     handeContactPhoneNumberChange,
-    handeContactMessageChange
+    handeContactMessageChange,
+    handleSubmit
   }
   return (
     <PortfolioContext.Provider value={value} >
