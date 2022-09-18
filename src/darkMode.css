@@ -94,6 +94,24 @@
   height: 410px;
 }
 
+@media only screen and (max-width: 550px) {
+  .darkCardMotionDiv {
+    height: 390px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .darkCardMotionDiv {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .darkCardMotionDiv {
+    height: 320px;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .darkNavItems {
     color: #FFFFFF;
@@ -190,4 +208,22 @@
     padding: 10px;
     height: 410px;
   }  
+
+  @media only screen and (max-width: 550px) {
+    .darkCardMotionDiv {
+      height: 390px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .darkCardMotionDiv {
+      height: 350px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .darkCardMotionDiv {
+      height: 320px;
+    }
+  }
 }

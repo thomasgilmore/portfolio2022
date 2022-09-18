@@ -83,6 +83,25 @@
   background-color: #FFFFFF;
   padding: 10px;
   height: 410px;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 550px) {
+  .lightCardMotionDiv {
+    height: 390px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .lightCardMotionDiv {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .lightCardMotionDiv {
+    height: 320px;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -180,5 +199,23 @@
     background-color: #FFFFFF;
     padding: 10px;
     height: 410px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    .lightCardMotionDiv {
+      height: 390px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .lightCardMotionDiv {
+      height: 350px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .lightCardMotionDiv {
+      height: 320px;
+    }
   }
 }
