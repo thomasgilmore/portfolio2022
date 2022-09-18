@@ -1,0 +1,22 @@
+.certificatesContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.certificatesDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.certificatesDiv > p {
+  margin: 0;
+}
+
+.certificate {
+  width: 250px;
+  height: 190px;
+}
