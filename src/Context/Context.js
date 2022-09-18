@@ -16,6 +16,9 @@ const PortfolioContextProvider = ({ children }) => {
   const [contactEmail, setContactEmail] = useState();
   const [contactPhoneNumber, setContactPhoneNumber] = useState();
   const [contactMessage, setContactMessage] = useState();
+  const [open, setOpen] = useState(false);
+  const [alertSeverity, setAlertSeverity] = useState('');
+  const [alertText, setAlertText] = useState('');
 
   const projects = [
     {
@@ -79,17 +82,29 @@ const PortfolioContextProvider = ({ children }) => {
     
     fetch(endpoint, requestOptions)
       .then((respone) => {
-        if (!respone.ok) throw new Error("Error in fetch");
+        if (!respone.ok) {
+          setAlertText('Error message has not been sent!');
+          setAlertSeverity('error');
+          setOpen(true);
+          throw new Error("Error in fetch");
+        }
+        setAlertText('Success message has been sent!');
+        setAlertSeverity('success');
+        setOpen(true);
         return respone.json();
       })
       .then((response) => {
         if (response.ok) {
-
+          setAlertSeverity('success');
+          setOpen(true);
+          console.log("success");
         }
       })
       .catch((error) => {
         if (error) {
-
+          // setAlertSeverity('error');
+          // setOpen(true);
+          console.log("error");
         }
       })
  }
@@ -120,7 +135,13 @@ const PortfolioContextProvider = ({ children }) => {
     handeContactEmailChange,
     handeContactPhoneNumberChange,
     handeContactMessageChange,
-    handleSubmit
+    handleSubmit,
+    open, 
+    setOpen,
+    alertSeverity,
+    setAlertSeverity,
+    alertText, 
+    setAlertText
   }
   return (
     <PortfolioContext.Provider value={value} >
