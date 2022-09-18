@@ -32,10 +32,18 @@
   .projectCardImg {
     width: 350px;
   }
+
+  .projectCardTitle {
+    font-size: 25px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .projectCardImg {
     width: 300px;
+  }
+
+  .projectCardTitle {
+    font-size: 23px;
   }
 }
