@@ -17,7 +17,7 @@ const PortfolioContextProvider = ({ children }) => {
   const [contactPhoneNumber, setContactPhoneNumber] = useState();
   const [contactMessage, setContactMessage] = useState();
   const [open, setOpen] = useState(false);
-  const [alertSeverity, setAlertSeverity] = useState('');
+  const [alertSeverity, setAlertSeverity] = useState('success');
   const [alertText, setAlertText] = useState('');
 
   const projects = [
