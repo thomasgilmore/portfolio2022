@@ -9,10 +9,6 @@
   margin-bottom: 7px;
 }
 
-.projectCardImg:hover {
-
-}
-
 .projectCardImg {
   max-width: 450px;
   margin-bottom: 10px;
@@ -24,4 +20,22 @@
 
 .projectCardViewProject {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 550px) {
+  .projectCardImg {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .projectCardImg {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .projectCardImg {
+    width: 300px;
+  }
 }
