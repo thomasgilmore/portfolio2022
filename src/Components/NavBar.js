@@ -16,6 +16,7 @@ export default function NavBar() {
           <Nav className="navItems">
             <Nav.Link className={`${theme}NavItems`} href="#home">Home</Nav.Link>
             <Nav.Link className={`${theme}NavItems`} href="#about">About</Nav.Link>
+            <Nav.Link className={`${theme}NavItems`} href="#certificates">Certificates</Nav.Link>
             <Nav.Link className={`${theme}NavItems`} href="#projects">Projects</Nav.Link>
             <Nav.Link className={`${theme}NavItems`} href="#contact">Contact</Nav.Link>
             <button onClick={handleThemeChange} className={`${theme}Button`}>{theme === 'light' ? <BsSun /> : <FiMoon />}</button>
