@@ -17,6 +17,7 @@ export default function DesignoMultiPageWebsite() {
         <p className="projectText">This project I followed a figma design that was given to me to create a multi-page react website. To create the different pages I used React Router to display the different components for each page.</p>
         <h3>What I Learned?</h3>
         <p className="projectText">Practing making a multi page website while creating the site with React.</p>
+        <p className='projectText'>I've been using the useContext hook in a couple of projects and I also wanted to included it in this project to help maintain react state and functions that are shared between children components.</p>
       </Container>
     </div>
   )
