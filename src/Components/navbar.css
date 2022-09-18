@@ -1,4 +1,12 @@
 .navItems {
   margin-left: auto;
   text-align: center;
+  display: flex;
+  align-items: baseline;
+}
+
+@media only screen and (max-width: 991px) {
+  .navItems {
+    align-items: center;
+  }
 }
