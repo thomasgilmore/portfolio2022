@@ -53,6 +53,10 @@
   color: #000000E6;
 }
 
+.lightProjectNavBackArrow:hover {
+  color: #4B626D;
+}
+
 .lightContactFormInput {
   border: 2px solid #000000E6;
 }
@@ -68,12 +72,12 @@
 }
 
 .lightViewSiteLink:hover {
-  color: blue;
+  color: #4B626D;
   text-decoration: underline;
 }
 
 .lightViewCodeLink:hover {
-  color: blue;
+  color: #4B626D;
   text-decoration: underline;
 }
 .lightCardMotionDiv {
@@ -168,6 +172,10 @@
     color: #000000E6;
   }
 
+  .lightProjectNavBackArrow:hover {
+    color: #4B626D;
+  }
+
   .lightContactFormInput {
     border: 2px solid #000000E6;
   }
@@ -183,12 +191,12 @@
   }
 
   .lightViewSiteLink:hover {
-    color: blue;
+    color: #4B626D;
     text-decoration: underline;
   }
 
   .lightViewCodeLink:hover {
-    color: blue;
+    color: #4B626D;
     text-decoration: underline;
   }
 

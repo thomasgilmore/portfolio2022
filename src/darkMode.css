@@ -61,6 +61,10 @@
   color: #FFFFFF;
 }
 
+.darkProjectNavBackArrow:hover {
+  color: lightblue;
+}
+
 .darkContactFormInput {
   border: 2px solid #FFFFFF;
 }
@@ -174,6 +178,10 @@
 
   .darkProjectNavBackArrow {
     color: #FFFFFF;
+  }
+
+  .darkProjectNavBackArrow:hover {
+    color: lightblue;
   }
 
   .darkContactFormInput {
