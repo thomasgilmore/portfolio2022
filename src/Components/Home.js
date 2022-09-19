@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
 import { PortfolioContext } from '../Context/Context';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './home.css';
 import NavBar from './NavBar';
 import Typewriter from 'typewriter-effect';
@@ -29,9 +30,9 @@ export default function Home() {
           cursorClassName: 'heroCursor',
         }} />
         <div className='portfolioHeroSocialIcons'>
-          <a href="https://github.com/thomasgilmore95" target="__blank">{theme === 'light' ? <img src={GitHubMark} className="gitHubLogo" alt="GitHub Logo Link to My GitHub Account" /> : <img src={GitHubMarkLight}   className="gitHubLogo" alt="GitHub Logo Link to My HitHub Account" />}</a>
+          <a href="https://github.com/thomasgilmore95" target="__blank">{theme === 'light' ? <LazyLoadImage src={GitHubMark} className="gitHubLogo" alt="GitHub Logo Link to My GitHub Account" /> : <LazyLoadImage src={GitHubMarkLight}   className="gitHubLogo" alt="GitHub Logo Link to My HitHub Account" />}</a>
           <button onClick={handleDownloadResume} className={`${theme}ResumeButton`}>Resume</button>
-          <a href="https://www.linkedin.com/in/thomasgilmore95/" target="__blank"><img src={LinkedinLogo} className="linkedinLogo" alt="Linkedin Logo to Linkedin Account" /></a>
+          <a href="https://www.linkedin.com/in/thomasgilmore95/" target="__blank"><LazyLoadImage src={LinkedinLogo} className="linkedinLogo" alt="Linkedin Logo to Linkedin Account" /></a>
         </div>
         </div>
         <HeroImage />
