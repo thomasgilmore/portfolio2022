@@ -15,7 +15,7 @@ export default function HeroImage() {
       <picture src={programmerImageSmall440} alt="Person Coding" >
         <source srcSet={`${programmerImageSmall440} 440w, ${programmerImageSmall} 640w, ${programmerImageMedium} 1280w, ${programmerImageLarge} 2000w`} />
         <source srcSet={`${programmerImageSmall440WebP} 440w, ${programmerImageSmallWebP} 640w, ${programmerImageMediumWebP} 1280w, ${programmerImageLargeWebP} 2000w`} type='image/webp' />
-        <img src={programmerImageSmall440} className="heroImage" alt="Person Coding"/>
+        <img src={programmerImageSmall440WebP} className="heroImage" alt="Person Coding"/>
       </picture>
     </div>
   )
