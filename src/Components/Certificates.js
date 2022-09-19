@@ -30,7 +30,7 @@ export default function Certificates() {
           <p><b>Issue Date:</b> April 18, 2020</p>
         </div>
         <div className='certificatesDiv'>
-          <div>
+          <div className='AWSCertificateImageDiv'>
             <a href="https://www.credly.com/badges/e0aab3e3-dd16-4182-927b-8881999e8038/public_url" target="_blank" rel="noreferrer">
               <img src={AWSCertifiedCloudPractitionerBadge} alt="AWS Certified Cloud Practitioner Badge" style={{ width: "200px" }} />
             </a>
@@ -40,7 +40,7 @@ export default function Certificates() {
           <p><b>Issue Date:</b> July 17, 2020</p>
         </div>
         <div className='certificatesDiv'>
-          <div>
+          <div className='AWSCertificateImageDiv'>
             <a href="https://www.credly.com/badges/0f243595-486f-46a8-8e52-cc237d4406d9/public_url" target="_blank" rel="noreferrer">
               <img src={AWSCertifiedDeveloperAssociateBadge} alt="AWS Certified Developer Associate Badge" style={{ width: "200px" }} />
             </a>

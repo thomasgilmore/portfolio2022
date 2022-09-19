@@ -12,6 +12,12 @@
   gap: 10px;
 }
 
+.AWSCertificateImageDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .certificatesDiv > p {
   margin: 0;
 }
