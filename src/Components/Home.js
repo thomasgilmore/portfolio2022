@@ -12,6 +12,7 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Certificates from './Certificates';
+import Footer from './Footer';
 
 export default function Home() {
   const { theme, handleDownloadResume } = useContext(PortfolioContext);
@@ -39,6 +40,7 @@ export default function Home() {
       <Certificates />
       <Projects />
       <Contact />
+      <Footer />
     </Container>
   )
 }
