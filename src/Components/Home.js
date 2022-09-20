@@ -30,9 +30,9 @@ export default function Home() {
           cursorClassName: 'heroCursor',
         }} />
         <div className='portfolioHeroSocialIcons'>
-          <a href="https://github.com/thomasgilmore95" target="__blank">{theme === 'light' ? <LazyLoadImage src={GitHubMark} className="gitHubLogo" width="50px" height="50px" alt="GitHub Logo Link to My GitHub Account" /> : <LazyLoadImage src={GitHubMarkLight}   className="gitHubLogo" width="50px" height="50px" alt="GitHub Logo Link to My HitHub Account" />}</a>
+          <a href="https://github.com/thomasgilmore95" target="__blank">{theme === 'light' ? <LazyLoadImage src={GitHubMark} className="gitHubLogo" width="50px" height="50px" sizes="(max-width: 200px) 50px, 50px" alt="GitHub Logo Link to My GitHub Account" /> : <LazyLoadImage src={GitHubMarkLight}   className="gitHubLogo" width="50px" height="50px" sizes="(max-width: 200px) 50px, 50px" alt="GitHub Logo Link to My HitHub Account" />}</a>
           <button onClick={handleDownloadResume} className={`${theme}ResumeButton`}>Resume</button>
-          <a href="https://www.linkedin.com/in/thomasgilmore95/" target="__blank"><LazyLoadImage src={LinkedinLogo} width="50px" height="50px" className="linkedinLogo" alt="Linkedin Logo to Linkedin Account" /></a>
+          <a href="https://www.linkedin.com/in/thomasgilmore95/" target="__blank"><LazyLoadImage src={LinkedinLogo} width="50px" height="50px" sizes="(max-width: 200px) 50px, 50px" className="linkedinLogo" alt="Linkedin Logo to Linkedin Account" /></a>
         </div>
         </div>
         <HeroImage />
