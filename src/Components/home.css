@@ -40,3 +40,17 @@
     gap: 20px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .hiThere {
+    font-size: 2.1rem;
+  }
+  
+  .heroCursor {
+    font-size: 2.1rem;
+  }
+  
+  .Typewriter__wrapper {
+    font-size: 2.1rem;
+  }
+}
