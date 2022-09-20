@@ -1,4 +1,3 @@
-import './App.css';
 import './darkMode.css';
 import './lightMode.css';
 import './projects.css';
