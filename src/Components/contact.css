@@ -1,9 +1,18 @@
+.contactContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
 .contactForm {
   display: flex;
   flex-direction: column;
   font-size: 20px;
   gap: 10px;
   padding: 30px;
+  flex: 2 1 auto;
 }
 
 .contactForm label {
@@ -20,4 +29,17 @@
   max-width: 600px;
   height: 200px;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .contactContainer {
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    align-items: center;
+    align-content: center;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
 }

@@ -2,10 +2,12 @@ import './contact.css';
 import React, { useContext } from 'react';
 import { PortfolioContext } from '../Context/Context';
 import ContactFormConfirmation from './ContactFormConfirmation';
+import ContactMe from './ContactMe';
 
 export default function Contact() {
   const { theme, handeContactNameChange, handeContactEmailChange, handeContactPhoneNumberChange, handeContactMessageChange, handleSubmit } = useContext(PortfolioContext);
   return (
+    <div className='contactContainer'>
     <form className='contactForm' id="contact" onSubmit={handleSubmit}>
       <h2>Contact</h2>
       <label>Name
@@ -23,5 +25,7 @@ export default function Contact() {
       <ContactFormConfirmation confirmationText="Test"/>
       <button className={`${theme}ContactSubmitButton`}>Submit</button>
     </form>
+      <ContactMe />
+    </div>
   )
 }
