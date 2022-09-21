@@ -5,6 +5,10 @@
   gap: 30px;
 }
 
+.certificatesTitle {
+  padding: 15px 0;
+}
+
 .certificatesDiv {
   display: flex;
   flex-direction: column;

@@ -13,7 +13,7 @@ import AWSCertifiedDeveloperAssociateCertificate from '../Assets/AWS-Certified-D
 export default function Certificates() {
   return (
     <div>
-      <h2 id="certificates">Certificates</h2>
+      <h2 className='certificatesTitle' id="certificates">Certificates</h2>
       <div className='certificatesContainer'>
         <div className='certificatesDiv'>
           <LazyLoadImage src={UdacityFrontEndDeveloeprCertificate} alt="Udacity Front End Developer Nanodegree Program Certificate" className='certificate' />

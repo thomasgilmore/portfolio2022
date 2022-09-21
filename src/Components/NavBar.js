@@ -9,7 +9,7 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function NavBar() {
   const { theme, handleThemeChange } = useContext(PortfolioContext);
   return (
-    <Navbar bg={theme} variant={theme} expand="lg" id="home">
+    <Navbar bg={theme} variant={theme} expand="lg" className='navBar' id="home">
         <Navbar.Brand href="#home">TG</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

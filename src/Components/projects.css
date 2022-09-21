@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.projectsTitle {
+  padding: 15px 0;
+}
+
 .projectsListDiv {
   display: flex;
   justify-content: space-evenly;

@@ -1,3 +1,4 @@
+import './footer.css';
 import React, { useContext } from 'react';
 import { PortfolioContext } from '../Context/Context';
 import Nav from 'react-bootstrap/Nav';
@@ -6,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function Footer() {
   const { theme } = useContext(PortfolioContext);
   return (
-    <Navbar bg={theme} variant={theme} expand="lg">
+    <Navbar bg={theme} variant={theme} expand="lg" className='navBarFooter'>
         <Navbar.Brand href="#home">TG</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navItems">

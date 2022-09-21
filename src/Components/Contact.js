@@ -8,8 +8,8 @@ export default function Contact() {
   const { theme, handeContactNameChange, handeContactEmailChange, handeContactPhoneNumberChange, handeContactMessageChange, handleSubmit } = useContext(PortfolioContext);
   return (
     <div className='contactContainer'>
-    <form className='contactForm' id="contact" onSubmit={handleSubmit}>
-      <h2>Contact</h2>
+    <form className='contactForm' onSubmit={handleSubmit}>
+      <h2 className='contactTitle' id="contact">Contact</h2>
       <label>Name
         <input type="text" className={`${theme}ContactFormInput`} name="Name" placeholder='Name' onChange={handeContactNameChange} required />
       </label>
