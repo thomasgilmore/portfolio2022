@@ -8,7 +8,6 @@ import Typewriter from 'typewriter-effect';
 import GitHubMark from '../Assets/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png';
 import GitHubMarkLight from '../Assets/GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png';
 import LinkedinLogo from '../Assets/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png';
-import LinkedinLogoWebP from '../Assets/iconfinder_1_Linkedin_unofficial_colored_svg_5296501_WebP.webp';
 import HeroImage from './HeroImage';
 import About from './About';
 import Projects from './Projects';
@@ -35,9 +34,7 @@ export default function Home() {
           <button onClick={handleDownloadResume} className={`${theme}ResumeButton`}>Resume</button>
           <a href="https://www.linkedin.com/in/thomasgilmore95/" target="__blank">
           <picture>
-            <source src={LinkedinLogoWebP} type='image/webp' />
-            <source src={LinkedinLogo} type='image/png' />
-            <LazyLoadImage src={LinkedinLogoWebP} width="50px" height="50px" className="linkedinLogo" alt="Linkedin Logo to Linkedin Account" />
+            <LazyLoadImage src={LinkedinLogo} width="50px" height="50px" className="linkedinLogo" alt="Linkedin Logo to Linkedin Account" />
           </picture>
           </a>
         </div>
