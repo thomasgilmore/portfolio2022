@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 import { PortfolioContext } from '../Context/Context';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './home.css';
@@ -31,7 +32,7 @@ export default function Home() {
         }} />
         <div className='portfolioHeroSocialIcons'>
           <a href="https://github.com/thomasgilmore95" target="__blank">{theme === 'light' ? <LazyLoadImage src={GitHubMark} className="gitHubLogo" width="50px" height="50px" alt="GitHub Logo Link to My GitHub Account" /> : <LazyLoadImage src={GitHubMarkLight} className="gitHubLogo" width="50px" height="50px" alt="GitHub Logo Link to My HitHub Account" />}</a>
-          <button onClick={handleDownloadResume} className={`${theme}ResumeButton`}>Resume</button>
+          <Button onClick={handleDownloadResume} className={`${theme}ResumeButton`}>Resume</Button>
           <a href="https://www.linkedin.com/in/thomasgilmore95/" target="__blank">
           <picture>
             <LazyLoadImage src={LinkedinLogo} width="50px" height="50px" className="linkedinLogo" alt="Linkedin Logo to Linkedin Account" />
