@@ -46,7 +46,7 @@
   border-radius: 5px;
   color: #FFFFFF;
   font-size: 20px;
-  width: 300px;
+  max-width: 300px;
 }
 
 .lightProjectNavBackArrow {
@@ -161,7 +161,7 @@
     border-radius: 5px;
     color: #FFFFFF;
     font-size: 20px;
-    width: 300px;
+    max-width: 300px;
   }
 
   .lightContactSubmitButton:hover {

@@ -50,7 +50,7 @@
   border-radius: 5px;
   color: #000000E6;
   font-size: 20px;
-  width: 300px;
+  max-width: 300px;
 }
 
 .darkContactSubmitButton:hover {
@@ -169,7 +169,7 @@
     border-radius: 5px;
     color: #000000E6;
     font-size: 20px;
-    width: 300px;
+    max-width: 300px;
   }
 
   .darkContactSubmitButton:hover {
