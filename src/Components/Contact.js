@@ -1,7 +1,6 @@
 import './contact.css';
 import React, { useContext } from 'react';
 import { PortfolioContext } from '../Context/Context';
-import Button from 'react-bootstrap/Button';
 import ContactFormConfirmation from './ContactFormConfirmation';
 import ContactMe from './ContactMe';
 
@@ -24,7 +23,7 @@ export default function Contact() {
         <textarea className={`${theme}ContactFormTextArea`} onChange={handeContactMessageChange} required />
       </label>
       <ContactFormConfirmation confirmationText="Test"/>
-      <Button className={`${theme}ContactSubmitButton`}>Submit</Button>
+      <button className={`${theme}ContactSubmitButton`}>Submit</button>
     </form>
       <ContactMe />
     </div>
