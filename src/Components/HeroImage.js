@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './heroimage.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 // import programmerImage200 from '../Assets/Images/programmer-1653351_200.png';
@@ -16,11 +16,17 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 // import programmerImageMediumWebP from '../Assets/Images/programmer-1653351_1280.webp';
 // import programmerImageLargeWebP from '../Assets/Images/programmer-1653351.webp';
 
+let image;
+
+useEffect(() => {
+  image = "https://ik.imagekit.io/yd6vq5yhz/programmer-1653351_1280_qpj6A3b6p.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663878878279";
+})
+
 export default function HeroImage() {
   return (
     <div className='heroImageDiv'>
       <picture>
-        <LazyLoadImage src="https://ik.imagekit.io/yd6vq5yhz/programmer-1653351_1280_qpj6A3b6p.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663878878279" width='auto' height="auto" className="heroImage" alt="Person Coding"/>
+        <LazyLoadImage src={image} width='auto' height="auto" className="heroImage" alt="Person Coding"/>
       </picture>
     </div>
   )
