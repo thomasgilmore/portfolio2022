@@ -25,7 +25,7 @@ export default function Home() {
         <div>
         <h1 className='hiThere'>Hi there, I'm Thomas.</h1>
         <Typewriter options={{
-          strings: ['Front End Developer.', 'Self Taught Developer.'],
+          strings: ['Front End Developer.', 'Self-Taught Developer.'],
           autoStart: true,
           loop: true,
           cursorClassName: 'heroCursor',
