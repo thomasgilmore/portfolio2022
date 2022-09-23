@@ -1,6 +1,5 @@
 import React from 'react';
 import './heroimage.css';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import programmerImage200 from '../Assets/Images/programmer-1653351_200.png';
 import programmerImage300 from '../Assets/Images/programmer-1653351_300.png';
 import programmerImage390 from '../Assets/Images/programmer-1653351_390.png';
@@ -22,7 +21,7 @@ export default function HeroImage() {
       <picture>
         <source srcSet={`${programmerImage200WebP} 200w, ${programmerImage300WebP} 300w, ${programmerImage390WebP} 390w, ${programmerImageSmall440WebP} 440w, ${programmerImageSmallWebP} 640w, ${programmerImageMediumWebP} 1280w, ${programmerImageLargeWebP} 2000w`} sizes="(max-width: 200px) 200px, (max-width: 300px) 300px, (max-width: 390px) 390px, (max-width: 440px) 440px, (max-width: 640px) 640px, (max-width: 1280px) 1280px, 2000px" type='image/webp' />
         <source srcSet={`${programmerImage200} 200w, ${programmerImage300} 300w, ${programmerImage390} 390w, ${programmerImageSmall440} 440w, ${programmerImageSmall} 640w, ${programmerImageMedium} 1280w, ${programmerImageLarge} 2000w`} sizes="(max-width: 200px) 200px, (max-width: 300px) 300px, (max-width: 390px) 390px, (max-width: 440px) 440px, (max-width: 640px) 640px, (max-width: 1280px) 1280px, 2000px" type='image/png' />
-        <LazyLoadImage src={programmerImage200} width='auto' height="auto" className="heroImage" alt="Person Coding"/>
+        <img src={programmerImage200} width='auto' height="auto" className="heroImage" alt="Person Coding"/>
       </picture>
     </div>
   )

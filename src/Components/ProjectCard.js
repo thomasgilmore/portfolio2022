@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { PortfolioContext } from '../Context/Context';
 import './projectcard.css';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { motion } from "framer-motion"
 import { Link } from 'react-router-dom';
 
@@ -12,7 +11,7 @@ export default function ProjectCard(props) {
     <Link to={props.link} className="projectCardLink">
       <div className='projectCardDiv'>
         <div className='projectCardImgDiv'>
-          <LazyLoadImage src={props.img} alt={props.name} 
+          <img src={props.img} alt={props.name} 
           className="projectCardImg" />
         </div>
         <h2 className={`projectCardTitle ${theme}projectCardTitle`}>{props.title}</h2>
