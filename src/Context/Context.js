@@ -1,8 +1,8 @@
 import React, { createContext, useState, useEffect } from 'react';
-import WineRecommendationImage from '../Assets/Projects/test/wine-recommendations-square-version-2.jpg';
-import MoodyCreatureSociety from '../Assets/Projects/test/moody-creature-society.jpg';
-import PokemonIndex from '../Assets/Projects/test/pokemon-index.jpg';
-import DesignoMultiPageWebsite from '../Assets/Projects/test/designo-multi-page-website.jpg';
+import WineRecommendationImage from '../Assets/Projects/tinified/wine-recommendations-square-version-2.jpg';
+import MoodyCreatureSociety from '../Assets/Projects/tinified/moody-creature-society.jpg';
+import PokemonIndex from '../Assets/Projects/tinified/pokemon-index.jpg';
+import DesignoMultiPageWebsite from '../Assets/Projects/tinified/designo-multi-page-website.jpg';
 
 const PortfolioContext = createContext();
 
