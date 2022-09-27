@@ -7,13 +7,13 @@ import GitHubMarkLight from '../Assets/GitHub-Mark/PNG/GitHub-Mark-Light-120px-p
 import LinkedinLogo from '../Assets/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png';
 
 export default function ContactMe() {
-  const { theme, handleDownloadResume } = useContext(PortfolioContext);
+  const { theme } = useContext(PortfolioContext);
   return (
     <div className='contactMeDiv'>
       <h1>Contact Me</h1>
       <div className='portfolioHeroSocialIcons'>
         <a href="https://github.com/thomasgilmore95" target="__blank">{theme === 'light' ? <img src={GitHubMark} className="gitHubLogo" width="50px" height="50px" alt="GitHub Logo Link to My GitHub Account" /> : <img src={GitHubMarkLight} className="gitHubLogo" width="50px" height="50px" alt="GitHub Logo Link to My HitHub Account" />}</a>
-        <Button onClick={handleDownloadResume} className={`${theme}ResumeButton`}>Resume</Button>
+        <a href="./Resume.pdf" target="__blank"><Button className={`${theme}ResumeButton`}>Resume</Button></a>
         <a href="https://www.linkedin.com/in/thomasgilmore95/" target="__blank">
           <picture>
             <img src={LinkedinLogo} width="50px" height="50px" className="linkedinLogo" alt="Linkedin Logo to Linkedin Account" />
