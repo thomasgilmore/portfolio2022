@@ -3,6 +3,7 @@ import WineRecommendationImage from '../Assets/Projects/wine-recommendations-squ
 import MoodyCreatureSociety from '../Assets/Projects/moody-creature-society.jpg';
 import PokemonIndex from '../Assets/Projects/pokemon-index.jpg';
 import DesignoMultiPageWebsite from '../Assets/Projects/designo-multi-page-website.jpg';
+import Resume from '../Assets/Resume.pdf';
 
 const PortfolioContext = createContext();
 
@@ -63,7 +64,7 @@ const PortfolioContextProvider = ({ children }) => {
 
   const handleDownloadResume = (e) => {
     e.preventDefault();
-    window.open("./Resume.pdf","_blank");
+    window.open(Resume,"_blank");
   }
 
   const handleSubmit = (e) => {
