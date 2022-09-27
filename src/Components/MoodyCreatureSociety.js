@@ -11,7 +11,7 @@ export default function MoodyCreatureSociety() {
       <Container>
         <ProjectNav title="Moody Creature Society" />
         <div className="siteLinksDiv">
-          <a href="https://moody-creature-society.netlify.app/" target="_blank" className={`${theme}ViewSiteLink`} rel="noreferrer">View Site</a>
+          <a href="https://main.d3o29tc7hfc01l.amplifyapp.com" target="_blank" className={`${theme}ViewSiteLink`} rel="noreferrer">View Site</a>
           <a href="https://github.com/thomasgilmore95/mcs" target="_blank" className={`${theme}ViewCodeLink`} rel="noreferrer">View Code</a>
         </div>
         <p className="projectText">This project I worked with a team lead, back end developer, and the client. I worked on the front end side of a landing page using React for a NFT. It displays price info, date release, some of the pictures of the NFTs for sale, etc.</p> 
