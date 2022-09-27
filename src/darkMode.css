@@ -93,7 +93,7 @@
 .darkCardMotionDiv {
   border: 3px solid #000000E6;
   border-radius: 5px;
-  filter: drop-shadow(10px 10px 4px #FFFFFF);
+  box-shadow: 10px 10px 10px #FFFFFF;
   background-color: #000000E6;
   padding: 10px;
   height: 410px;
@@ -213,7 +213,7 @@
   .darkCardMotionDiv {
     border: 3px solid #000000E6;
     border-radius: 5px;
-    filter: drop-shadow(10px 10px 4px #FFFFFF);
+    box-shadow: 10px 10px 10px #FFFFFF;
     background-color: #000000E6;
     padding: 10px;
     height: 410px;
