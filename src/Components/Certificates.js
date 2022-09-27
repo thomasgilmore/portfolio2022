@@ -1,12 +1,12 @@
 import './certificates.css';
 import React from 'react';
 import UdacityFrontEndDeveloeprCertificate from '../Assets/Certs/Front-End-Developer-Certifcate.jpg';
-import UdemyNodejsDeveloperCourse from '../Assets/Certs/tinified/Udemy-NodejsDeveloperCourse.jpg';
-import UdemyReactDeveloperCourse from '../Assets/Certs/tinified/UdemyReactDeveloperCourse.jpg';
+import UdemyNodejsDeveloperCourse from '../Assets/Certs/Udemy-NodejsDeveloperCourse.jpg';
+import UdemyReactDeveloperCourse from '../Assets/Certs/UdemyReactDeveloperCourse.jpg';
 import AWSCertifiedCloudPractitionerBadge from '../Assets/aws-certified-cloud-practitioner.png';
-import AWSCertifiedCloudPractitionerCertificate from '../Assets/Certs/tinified/AWS-Certified-Cloud-Practitioner-certificate-3.jpg';
+import AWSCertifiedCloudPractitionerCertificate from '../Assets/Certs/AWS-Certified-Cloud-Practitioner-certificate-3.jpg';
 import AWSCertifiedDeveloperAssociateBadge from '../Assets/aws-certified-developer-associate.png';
-import AWSCertifiedDeveloperAssociateCertificate from '../Assets/Certs/tinified/AWS-Certified-Developer-Associate-certificate-2.jpg';
+import AWSCertifiedDeveloperAssociateCertificate from '../Assets/Certs/AWS-Certified-Developer-Associate-certificate-2.jpg';
 
 
 export default function Certificates() {
