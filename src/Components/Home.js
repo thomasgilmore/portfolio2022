@@ -30,7 +30,7 @@ export default function Home() {
           cursorClassName: 'heroCursor',
         }} />
         <div className='portfolioHeroSocialIcons'>
-          <a href="https://github.com/thomasgilmore95" target="__blank">{theme === 'light' ? <img src={GitHubMark} className="gitHubLogo" width="50px" height="50px" alt="GitHub Logo Link to My GitHub Account" /> : <img src={GitHubMarkLight} className="gitHubLogo" width="50px" height="50px" alt="GitHub Logo Link to My HitHub Account" />}</a>
+          <a href="https://github.com/thomasgilmore" target="__blank">{theme === 'light' ? <img src={GitHubMark} className="gitHubLogo" width="50px" height="50px" alt="GitHub Logo Link to My GitHub Account" /> : <img src={GitHubMarkLight} className="gitHubLogo" width="50px" height="50px" alt="GitHub Logo Link to My HitHub Account" />}</a>
           <Button className={`${theme}ResumeButton`} onClick={handleDownloadResume}>Resume</Button>
           <a href="https://www.linkedin.com/in/thomasgilmore95/" target="__blank">
           <picture>
