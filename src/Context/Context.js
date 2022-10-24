@@ -25,28 +25,28 @@ const PortfolioContextProvider = ({ children }) => {
     {
       img: WineRecommendationImage,
       title: 'Wine Recommendations',
-      url: 'https://main.d140fawgpsixvw.amplifyapp.com',
+      url: 'https://main.dyyu8cfc548kr.amplifyapp.com',
       urlNetlify: 'https://gilmore-wine-recommendations-v2.netlify.app/',
       link: '/wine-recommendations'
     }, 
     {
       img: MoodyCreatureSociety,
       title: 'Moody Creature Society',
-      url: 'https://main.d3o29tc7hfc01l.amplifyapp.com',
+      url: 'https://main.d3fir16ql4oem.amplifyapp.com',
       urlNetlify: 'https://moody-creature-society.netlify.app/',
       link: '/moody-creature-society'
     },
     {
       img: PokemonIndex,
       title: 'Pokémon Index',
-      url : 'https://main.d1mot6u4xg8m89.amplifyapp.com',
+      url : 'https://main.d1ft6s0k4qnava.amplifyapp.com',
       urlNetlify: 'https://gilmore-pokemon-index.netlify.app/',
       link: '/pokemon-index'
     },
     {
       img: DesignoMultiPageWebsite,
       title: 'Designo Multi-Page Website',
-      url: 'https://main.d1xtu55jiopcnu.amplifyapp.com',
+      url: 'https://main.dcut5jiges03w.amplifyapp.com',
       urlNetlify: 'https://gilmore-designo.netlify.app/',
       link: '/designo-multi-page-website'
     }

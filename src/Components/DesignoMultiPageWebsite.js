@@ -11,7 +11,7 @@ export default function DesignoMultiPageWebsite() {
       <Container>
         <ProjectNav title='Designo Multi-Page Website' />
         <div className="siteLinksDiv">
-          <a href="https://main.d1xtu55jiopcnu.amplifyapp.com" target="_blank" className={`${theme}ViewSiteLink`} rel="noreferrer">View Site</a>
+          <a href="https://main.dcut5jiges03w.amplifyapp.com" target="_blank" className={`${theme}ViewSiteLink`} rel="noreferrer">View Site</a>
           <a href="https://github.com/thomasgilmore95/designo-multi-page-website" target="_blank" className={`${theme}ViewCodeLink`} rel="noreferrer">View Code</a>
         </div>
         <p className="projectText">This project I followed a Figma design that was given to me to create a multi-page react website. To create the different pages, I used React Router to display the different components for each page.</p>

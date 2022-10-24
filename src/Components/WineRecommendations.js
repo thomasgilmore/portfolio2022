@@ -11,7 +11,7 @@ export default function WineRecommendations() {
       <Container>
         <ProjectNav title="Wine Recommendations" />
         <div className="siteLinksDiv">
-          <a href="https://main.d140fawgpsixvw.amplifyapp.com" target="_blank" className={`${theme}ViewSiteLink`} rel="noreferrer">View Site</a>
+          <a href="https://main.dyyu8cfc548kr.amplifyapp.com" target="_blank" className={`${theme}ViewSiteLink`} rel="noreferrer">View Site</a>
           <a href="https://github.com/thomasgilmore95/wine-recommendations-app-v2" target="_blank" className={`${theme}ViewCodeLink`} rel="noreferrer">View Code</a>
         </div>
         <p className="projectText">I created a Wine Recommendations Application where you can either find a dish that goes well with a given wine (ex. Malbec, Pinot Grigio, Rose Wine, ... etc.). Also you can find a wine that goes well with a food. Food can be a dish name ("steak"), an ingredient name ("salmon"), or a cuisine ("Italian").</p>
