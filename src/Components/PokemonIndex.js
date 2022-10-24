@@ -12,7 +12,7 @@ export default function PokemonIndex() {
         <ProjectNav title="Pokémon Index" />
         <div className="siteLinksDiv">
           <a href="https://main.d1ft6s0k4qnava.amplifyapp.com" target="_blank" className={`${theme}ViewSiteLink`} rel="noreferrer">View Site</a>
-          <a href="https://github.com/thomasgilmore95/Pokemon-Index" target="_blank" className={`${theme}ViewCodeLink`} rel="noreferrer">View Code</a>
+          <a href="https://github.com/thomasgilmore/Pokemon-Index" target="_blank" className={`${theme}ViewCodeLink`} rel="noreferrer">View Code</a>
         </div>
         <p className="projectText">Implements user login feature with Google OAuth and utilizes context hook to handle UI states</p>
         <p className="projectText">Integrates REST protocol that works with Pokemoncg.io API endpoints</p>
