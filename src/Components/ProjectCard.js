@@ -11,7 +11,7 @@ export default function ProjectCard(props) {
     <Link to={props.link} className="projectCardLink">
       <div className='projectCardDiv'>
         <div className='projectCardImgDiv'>
-          <img src={props.img} alt={props.name} 
+          <img src={props.img} alt={`${props.title}`} 
           className="projectCardImg" />
         </div>
         <h2 className={`projectCardTitle ${theme}projectCardTitle`}>{props.title}</h2>

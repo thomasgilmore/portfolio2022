@@ -19,7 +19,7 @@ export default function NavBar() {
             <Nav.Link className={`${theme}NavItems`} href="#certificates">Certificates</Nav.Link>
             <Nav.Link className={`${theme}NavItems`} href="#projects">Projects</Nav.Link>
             <Nav.Link className={`${theme}NavItems`} href="#contact">Contact</Nav.Link>
-            <button onClick={handleThemeChange} className={`${theme}Button`}>{theme === 'light' ? <BsSun /> : <FiMoon />}</button>
+            <button onClick={handleThemeChange} aria-label="Light and Dark Mode Button" className={`${theme}Button`}>{theme === 'light' ? <BsSun /> : <FiMoon />}</button>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
