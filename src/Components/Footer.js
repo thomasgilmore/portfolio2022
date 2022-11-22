@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <Navbar bg={theme} variant={theme} expand="lg" className='navBarFooter'>
         <Navbar.Brand href="#home">TG</Navbar.Brand>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav footer">
           <Nav className="navItems">
             <Nav.Link className={`${theme}NavItems`} href="#home">Home</Nav.Link>
             <Nav.Link className={`${theme}NavItems`} href="#about">About</Nav.Link>
