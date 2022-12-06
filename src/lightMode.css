@@ -27,7 +27,7 @@
 }
 
 .lightResumeButton {
-  background-color: #607D8B;
+  background-color: #4C556C;
   border: none;
   border-radius: 5px;
   color: #FFFFFF;
@@ -42,7 +42,7 @@
 }
 
 .lightContactSubmitButton {
-  background-color: red;
+  background-color: #4C556C;
   border: none;
   border-radius: 5px;
   color: #FFFFFF;
@@ -139,7 +139,7 @@
   }
 
   .lightResumeButton {
-    background-color: #607D8B;
+    background-color: #4C556C;
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
@@ -149,7 +149,7 @@
   }
 
   .lightResumeButton:hover {
-    background-color: #4B626D;
+    background-color: #444c61;
   }
   
   .lightprojectCardTitle,
@@ -158,7 +158,7 @@
   }
 
   .lightContactSubmitButton {
-    background-color: #607D8B;
+    background-color: #4C556C;
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
@@ -167,7 +167,7 @@
   }
 
   .lightContactSubmitButton:hover {
-    background-color: #4B626D;
+    background-color: #444c61;
   }
 
   .lightProjectNavBackArrow {
